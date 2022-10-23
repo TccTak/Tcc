@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Gray shadow. -->
-    <item  android:top="5dp">
-        <shape>
-            <corners android:radius="25dp"
-            />
-            <solid android:color="#14020705"
-                />
-        </shape>
-    </item>
+
     <item  android:bottom="6dp">
         <shape>
             <corners android:radius="25dp">
 
             </corners>
             <gradient
-                android:startColor="#B00C82"
-                android:endColor="#470260"
+                android:startColor="#9F1F8B"
+                android:endColor="#5914BB"
                 android:type="linear"
-                android:angle="1">
+                android:angle="0">
 
             </gradient>
 
