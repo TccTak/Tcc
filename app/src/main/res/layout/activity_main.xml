@@ -21,7 +21,8 @@ android:background="@color/primary"
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="470dp"
-        android:layout_marginTop="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="170dp"
         android:gravity="center">
 
         <LinearLayout
@@ -35,14 +36,16 @@ android:background="@color/primary"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:id="@+id/bpass">
 
             </Button>
 
             <Button
                 android:layout_width="150dp"
                 android:layout_height="200dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:id="@+id/bfpass">
 
             </Button>
 
@@ -58,14 +61,16 @@ android:background="@color/primary"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:id="@+id/devices">
 
             </Button>
 
             <Button
                 android:layout_width="150dp"
                 android:layout_height="200dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:id="@+id/registers">
 
             </Button>
 
@@ -74,11 +79,14 @@ android:background="@color/primary"
     </LinearLayout>
 
     <Button
-        android:layout_width="380dp"
-        android:layout_height="221dp"
+        android:layout_width="371dp"
+        android:layout_height="202dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp"
-        android:background="@drawable/buttonNFC"/>
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/buttonnfc">
+
+
+    </Button>
 
 </RelativeLayout>
