@@ -10,5 +10,6 @@
     <color name="primary">#250A39</color>
     <color name="block_1">#351A4A</color>
     <color name="shadow">#E6351A4A</color>
-
+    <color name="add_button">#402C123C</color>
+    <color name="card_line">#0DFCCEFA</color>
 </resources>
