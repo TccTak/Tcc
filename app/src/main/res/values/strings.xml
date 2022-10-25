@@ -2,4 +2,5 @@
     <string name="app_name">TccLog</string>
     <string name="senhas">Senhas</string>
     <string name="button">Button</string>
+    <string name="register">Register</string>
 </resources>
