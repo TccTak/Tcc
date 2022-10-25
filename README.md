@@ -1,3 +1,6 @@
 # AppTcc:iphone:
 
-An mordem app for smart door locks based in kotlin
+A modern kotlin-based smart lock app
+
+
+
