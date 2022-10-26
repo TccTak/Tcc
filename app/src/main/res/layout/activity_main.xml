@@ -84,7 +84,8 @@ android:background="@color/primary"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="54dp"
-        android:background="@drawable/buttonnfc">
+        android:background="@drawable/buttonnfc"
+        tools:ignore="SpeakableTextPresentCheck">
 
 
     </Button>

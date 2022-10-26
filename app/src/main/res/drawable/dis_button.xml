@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gray shadow. -->
+    <item>
+        <shape>
+            <corners android:radius="22dp">
+
+            </corners>
+            <solid android:color="#14020705"
+                />
+        </shape>
+    </item>
+    <item  android:bottom="4dp">
+        <shape>
+            <corners android:radius="25dp">
+
+            </corners>
+            <solid android:color="@color/dis_button"
+                />
+        </shape>
+    </item>
+</layer-list>
