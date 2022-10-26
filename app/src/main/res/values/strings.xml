@@ -7,4 +7,5 @@
     <string name="senha_unica">Senha Unica</string>
     <string name="cadastrar_senha">Cadastrar senha</string>
     <string name="dispositivos">Dispositivos</string>
+    <string name="cadastrar_dispositivos">Cadastrar Dispositivos</string>
 </resources>
