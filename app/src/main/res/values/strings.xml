@@ -3,4 +3,8 @@
     <string name="senhas">Senhas</string>
     <string name="button">Button</string>
     <string name="register">Register</string>
+    <string name="ainda_n_o_h_senhas_cadastradas">Ainda não há senhas cadastradas</string>
+    <string name="senha_unica">Senha Unica</string>
+    <string name="cadastrar_senha">Cadastrar senha</string>
+    <string name="dispositivos">Dispositivos</string>
 </resources>
