@@ -8,4 +8,7 @@
     <string name="cadastrar_senha">Cadastrar senha</string>
     <string name="dispositivos">Dispositivos</string>
     <string name="cadastrar_dispositivos">Cadastrar Dispositivos</string>
+    <string name="nome_do_dispositivo">Nome do Dispositivo</string>
+    <string name="home_security">Home Security</string>
+    <string name="bem_vindo">Bem vindo</string>
 </resources>

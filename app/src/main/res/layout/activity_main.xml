@@ -10,13 +10,51 @@ android:orientation="vertical"
 android:background="@color/primary"
     >
 
-<View
-    android:layout_width="wrap_content"
-    android:layout_height="250dp"
-    android:background="@drawable/card"
-    >
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/card">
 
-</View>
+    </View>
+
+    <LinearLayout
+
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="178dp"
+        android:background="@mipmap/app_icon1"
+        android:elevation="10dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_security"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="171dp"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bem_vindo"
+        android:textSize="22sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="155dp">
+
+    </TextView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,19 +71,21 @@ android:background="@color/primary"
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/bpass"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button"
-                android:id="@+id/bpass">
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
 
             <Button
+                android:id="@+id/bfpass"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:background="@drawable/button"
-                android:id="@+id/bfpass">
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
 
@@ -58,19 +98,21 @@ android:background="@color/primary"
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/devices"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button"
-                android:id="@+id/devices">
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
 
             <Button
+                android:id="@+id/registers"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:background="@drawable/button"
-                android:id="@+id/registers">
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
 
