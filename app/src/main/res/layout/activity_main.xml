@@ -144,7 +144,7 @@ android:background="@color/primary"
         android:layout_marginBottom="54dp"
         android:background="@drawable/buttonnfc"
         android:drawableTop="@mipmap/nfc_background"
-        android:paddingTop="40dp"
+        android:paddingTop="41dp"
         tools:ignore="SpeakableTextPresentCheck">
 
 
