@@ -11,4 +11,8 @@
     <string name="nome_do_dispositivo">Nome do Dispositivo</string>
     <string name="home_security">Home Security</string>
     <string name="bem_vindo">Bem vindo</string>
+    <string name="senha">Senha</string>
+    <string name="dispositivos1">Dispositivos</string>
+    <string name="passe_nico">Passe Único</string>
+    <string name="registro">Registro</string>
 </resources>

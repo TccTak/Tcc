@@ -41,7 +41,7 @@ android:background="@color/primary"
         android:layout_height="wrap_content"
         android:text="@string/home_security"
         android:layout_marginTop="42dp"
-        android:layout_marginStart="171dp"
+        android:layout_marginStart="157dp"
         android:textSize="15sp">
 
     </TextView>
@@ -76,7 +76,11 @@ android:background="@color/primary"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button"
-                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+                android:drawableTop="@mipmap/locker2test_background"
+                android:paddingTop="28dp"
+                android:text="@string/senha"
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TextContrastCheck,TextContrastCheck">
 
             </Button>
 
@@ -85,7 +89,11 @@ android:background="@color/primary"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:background="@drawable/button"
-                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+                android:drawableTop="@mipmap/fastpass_foreground"
+                android:paddingTop="26dp"
+                android:text="@string/passe_nico"
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TextContrastCheck,TextContrastCheck">
 
             </Button>
 
@@ -103,6 +111,10 @@ android:background="@color/primary"
                 android:layout_height="200dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button"
+                android:drawableTop="@mipmap/disposi_foreground"
+                android:paddingTop="26dp"
+                android:text="@string/dispositivos1"
+                android:textSize="15sp"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
@@ -112,6 +124,10 @@ android:background="@color/primary"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:background="@drawable/button"
+                android:drawableTop="@mipmap/registro_background"
+                android:paddingTop="24dp"
+                android:text="@string/registro"
+                android:textSize="15sp"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             </Button>
@@ -127,6 +143,8 @@ android:background="@color/primary"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="54dp"
         android:background="@drawable/buttonnfc"
+        android:drawableTop="@mipmap/nfc_background"
+        android:paddingTop="40dp"
         tools:ignore="SpeakableTextPresentCheck">
 
 
