@@ -1,67 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity"
-android:orientation="vertical"
-android:background="@color/primary"
-    >
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <View
+        android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:background="@drawable/card">
+        android:layout_height="0dp"
+        android:layout_marginBottom="427dp"
+        android:background="@drawable/card"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
 
     </View>
 
     <LinearLayout
-
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:background="@drawable/circle"
-        android:layout_marginStart="182dp"
-        android:layout_marginTop="5dp">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="53dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="178dp"
-        android:background="@mipmap/app_icon1"
-        android:elevation="10dp">
-
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home_security"
-        android:layout_marginTop="42dp"
-        android:layout_marginStart="157dp"
-        android:textSize="15sp">
-
-    </TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bem_vindo"
-        android:textSize="22sp"
-        android:layout_marginTop="90dp"
-        android:layout_marginStart="155dp">
-
-    </TextView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="470dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="456dp"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="170dp"
-        android:gravity="center">
+        android:layout_marginBottom="264dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="170dp"
@@ -137,17 +108,23 @@ android:background="@color/primary"
     </LinearLayout>
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="371dp"
-        android:layout_height="202dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="0dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="35dp"
         android:background="@drawable/buttonnfc"
         android:drawableTop="@mipmap/nfc_background"
         android:paddingTop="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.491"
         tools:ignore="SpeakableTextPresentCheck">
 
 
     </Button>
 
-</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

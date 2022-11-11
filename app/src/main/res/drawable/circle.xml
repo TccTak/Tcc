@@ -2,25 +2,27 @@
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Gray shadow. -->
-    <item  android:top="7dp">
+    <item  android:top="4dp">
         <shape>
 
             <corners android:radius="360dp">
 
             </corners>
 
-            <solid android:color="#14020705"
+            <gradient android:startColor="#E62C163C"
+                android:endColor="@color/block_1"
+                android:angle="90"
                 />
         </shape>
 
     </item>
-    <item  android:bottom="12dp">
+    <item  android:bottom="2dp">
         <shape>
 
             <corners android:radius="360dp">
 
             </corners>
-            <solid android:color="@color/circle_icon"
+            <solid android:color="@color/block_1"
                 />
         </shape>
     </item>
