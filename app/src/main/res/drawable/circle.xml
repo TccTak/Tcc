@@ -2,7 +2,7 @@
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Gray shadow. -->
-    <item  android:top="4dp">
+    <item  android:top="5dp">
         <shape>
 
             <corners android:radius="360dp">
@@ -10,19 +10,19 @@
             </corners>
 
             <gradient android:startColor="#E62C163C"
-                android:endColor="@color/block_1"
+                android:endColor="#351A4A"
                 android:angle="90"
                 />
         </shape>
 
     </item>
-    <item  android:bottom="2dp">
+    <item  android:bottom="4dp">
         <shape>
 
             <corners android:radius="360dp">
 
             </corners>
-            <solid android:color="@color/block_1"
+            <solid android:color="#391A50"
                 />
         </shape>
     </item>

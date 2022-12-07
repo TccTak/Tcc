@@ -17,13 +17,25 @@
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="165dp" />
 
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@mipmap/back_icon">
+    </Button>
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="147dp"
         android:layout_height="37dp"
         android:background="@drawable/dis_button"
+        android:text="RAFAEL"
+        android:textSize="18dp"
+        android:paddingLeft="40dp"
+        android:gravity="center"
+        android:paddingBottom="5dp"
         tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

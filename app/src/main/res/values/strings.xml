@@ -16,4 +16,8 @@
     <string name="passe_nico">Passe Único</string>
     <string name="registro">Registro</string>
     <string name="cadastrar_senhaS">Cadastrar Senha</string>
+    <string name="bem_vindo1">Bem vindo</string>
+    <string name="home_security1">Home Security</string>
+    <string name="perfil">perfil</string>
+    <string name="sair">Sair</string>
 </resources>

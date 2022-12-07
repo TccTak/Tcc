@@ -17,6 +17,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@mipmap/back_icon">
+    </Button>
+
+
 
     <RelativeLayout
 
