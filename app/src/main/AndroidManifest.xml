@@ -30,6 +30,7 @@
         <activity android:name=".Fpass"></activity>
         <activity android:name=".Scard"></activity>
         <activity android:name=".Register"></activity>
+        <activity android:name=".Pcard"></activity>
     </application>
 
 </manifest>

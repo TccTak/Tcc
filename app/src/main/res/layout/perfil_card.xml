@@ -2,18 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="280dp"
-    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     >
 
     <View
+        android:id="@+id/perfil_card"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:background="@drawable/perfil_card"
-        >
-    </View>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="30dp"></View>
 
     <Button
         android:layout_width="90dp"
@@ -23,9 +23,11 @@
         android:paddingBottom="5dp"
         android:text="@string/perfil"
         android:textSize="13sp"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="7dp"></Button>
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="38dp">
+
+    </Button>
 
     <Button
         android:layout_width="90dp"
@@ -34,9 +36,9 @@
         android:paddingBottom="5dp"
         android:text="@string/sair"
         android:textSize="13sp"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="46dp" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="77dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

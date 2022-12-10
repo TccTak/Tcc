@@ -24,43 +24,56 @@
     </View>
 
     <View
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
         android:background="@drawable/circle"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="3dp" />
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="@id/view"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="90dp"
         android:text="@string/bem_vindo1"
         android:textSize="21sp"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="100dp">
-    </TextView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        ></TextView>
 
-    <View
+    <LinearLayout
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:background="@mipmap/app_icon1"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="@id/view"
+        tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:padding="37dp"
         android:text="@string/home_security1"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="39dp">
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SmallSp">
+
     </TextView>
 
-    <View
+    <Button
+        android:id="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="37dp"
         android:layout_height="37dp"
         android:background="@mipmap/config_icon"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -71,7 +84,7 @@
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout

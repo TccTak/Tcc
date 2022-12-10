@@ -1,42 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/passl_drawble"
-   >
+    android:background="@drawable/passl_drawble">
 
     <LinearLayout
 
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:paddingBottom="50dp"
-        android:orientation="vertical"
+        android:id="@+id/passF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/passF">
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2">
+
     </LinearLayout>
 
     <Button
-        android:layout_width="38dp"
-        android:layout_height="38dp"
-        android:background="@mipmap/back_icon">
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="140dp"
+        android:background="@mipmap/back_icon"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/passF"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
     </Button>
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="340dp"
-        android:layout_height="38dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="675dp"
         android:background="@color/card_line"
         android:gravity="center"
         android:text="@string/ainda_n_o_h_senhas_cadastradas"
         android:textColor="#DF75C1"
         android:textSize="20sp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -49,23 +65,39 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="784dp"
+        android:background="@mipmap/fastpass_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/buttonC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
 
         android:id="@+id/buttonC"
         android:layout_width="225dp"
-        android:layout_height="45dp"
+        android:layout_height="0dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="810dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/add_button"
         android:paddingBottom="5dp"
         android:text="@string/cadastrar_senha"
         android:textColor="#D887C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
         tools:ignore="TouchTargetSizeCheck" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
