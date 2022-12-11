@@ -20,4 +20,7 @@
     <string name="home_security1">Home Security</string>
     <string name="perfil">perfil</string>
     <string name="sair">Sair</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="n_o_h_senhas_cadastradas">Não há senhas cadastradas</string>
 </resources>

@@ -41,7 +41,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        ></TextView>
+        >
+
+    </TextView>
 
     <LinearLayout
         android:layout_width="38dp"
@@ -167,8 +169,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
         android:background="@drawable/buttonnfc"
-        android:drawableTop="@mipmap/nfc_background"
-        android:paddingTop="41dp"
+        android:drawableTop="@mipmap/digitalbio_icon3_foreground"
+        android:paddingTop="42dp"
+        android:text="Biometria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

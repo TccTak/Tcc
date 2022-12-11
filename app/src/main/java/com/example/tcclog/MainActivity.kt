@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         val buttonD = findViewById<Button>(R.id.devices)
         val buttonF = findViewById<Button>(R.id.bfpass)
         val buttonR = findViewById<Button>(R.id.registers)
-        val buttonE = findViewById<Button>(R.id.button6)
 
         buttonP.setOnClickListener {
             val intent = Intent(this@MainActivity, Passl::class.java)
@@ -38,10 +37,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        buttonE.setOnClickListener{
-            val intent = Intent(this@MainActivity, Pcard::class.java)
-            startActivity(intent)
         }
     }
-}
 

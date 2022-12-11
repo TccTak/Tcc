@@ -15,22 +15,16 @@
         android:layout_centerVertical="true"
         android:orientation="vertical"
         android:paddingBottom="50dp"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2">
+        tools:ignore="MissingConstraints">
 
     </LinearLayout>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="140dp"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
         android:background="@mipmap/back_icon"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/view2"
-        app:layout_constraintStart_toEndOf="@+id/passF"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck">
 
@@ -38,66 +32,58 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="675dp"
         android:background="@color/card_line"
         android:gravity="center"
-        android:text="@string/ainda_n_o_h_senhas_cadastradas"
+        android:text="@string/n_o_h_senhas_cadastradas"
         android:textColor="#DF75C1"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="500dp"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="119dp"
         android:text="@string/senha_unica"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_marginTop="4dp"
+        />
 
     <View
         android:id="@+id/view2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="228dp"
-        android:layout_marginBottom="784dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:background="@mipmap/fastpass_foreground"
-        app:layout_constraintBottom_toTopOf="@+id/buttonC"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="2dp"/>
 
     <Button
 
         android:id="@+id/buttonC"
         android:layout_width="225dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
         android:background="@drawable/add_button"
         android:paddingBottom="5dp"
         android:text="@string/cadastrar_senha"
         android:textColor="#D887C6"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+        tools:ignore="TouchTargetSizeCheck"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
