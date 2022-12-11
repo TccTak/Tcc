@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card"
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/passl_drawble"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite o Usuário"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@id/card"
+            app:layout_constraintBottom_toTopOf="@id/editText1"
+            app:layout_constraintTop_toTopOf="@id/card"
+            app:layout_constraintEnd_toEndOf="@id/card"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite a senha"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/editText1"
+            app:layout_constraintBottom_toTopOf="@id/editText"
+            app:layout_constraintEnd_toEndOf="@id/card"
+            app:layout_constraintStart_toStartOf="@id/card">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:background="@drawable/text_e"
+            android:hint="@string/cadastrar_senhaS"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/card"
+            app:layout_constraintStart_toStartOf="@id/card"
+            app:layout_constraintTop_toTopOf="@id/card"
+            app:layout_constraintBottom_toBottomOf="@id/card"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:background="@drawable/text_e"
+            android:hint="@string/cadastrar_senhaS"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="@id/card"
+            app:layout_constraintEnd_toEndOf="@id/card"
+            app:layout_constraintStart_toStartOf="@id/card"
+            app:layout_constraintBottom_toTopOf="@id/editText"
+            >
+        </EditText>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/botões"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonS"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/add_button"
+            android:text="@string/salvar"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toEndOf="@id/buttonC"
+            app:layout_constraintEnd_toStartOf="parent">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonC"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/add_button"
+            android:text="@string/cancelar"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toStartOf="@id/buttonS"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

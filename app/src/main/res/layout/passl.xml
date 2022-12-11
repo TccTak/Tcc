@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/passl_drawble">
@@ -9,39 +10,55 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="561dp"
         android:text="@string/senhas"
-        android:textSize="20sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="4dp"/>
 
     <Button
         android:layout_width="33dp"
         android:layout_height="33dp"
-        android:background="@mipmap/back_icon">
+        android:background="@mipmap/back_icon"
+        tools:ignore="MissingConstraints">
     </Button>
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="0dp"
-        android:layout_height="504dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="17dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="300dp"
+        android:layout_height="650dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361">
+        tools:itemCount="5"
+        tools:listitem="@layout/recycler_view_item_2" />
 
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/locker2test_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView"
+        android:layout_marginTop="2dp">
+    </View>
 
+    <Button
 
-    </RelativeLayout>
+        android:id="@+id/buttonC"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/add_button"
+        android:paddingBottom="5dp"
+        android:text="@string/cadastrar_senha"
+        android:textColor="#D887C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+        tools:ignore="TouchTargetSizeCheck"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

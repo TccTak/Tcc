@@ -57,13 +57,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="Usuário"
-        app:layout_constraintStart_toStartOf="@id/list_reg"
-        app:layout_constraintEnd_toStartOf="@id/mecanismo"
-        app:layout_constraintBottom_toTopOf="@id/list_reg"
+        android:gravity="center"
+        android:text="@string/usu_rio"
         android:textColor="@color/title_list"
         android:textSize="16sp"
-        android:gravity="center">
+        app:layout_constraintBottom_toTopOf="@id/list_reg"
+        app:layout_constraintEnd_toStartOf="@id/mecanismo"
+        app:layout_constraintStart_toStartOf="@id/list_reg"
+        tools:ignore="TextContrastCheck">
 
     </TextView>
 
@@ -71,25 +72,28 @@
         android:id="@+id/mecanismo"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="Mecanismo"
-        android:textColor="@color/title_list"
         android:gravity="center"
+        android:text="@string/mecanismo"
+        android:textColor="@color/title_list"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@id/list_reg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-    </TextView>
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck"></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="Horário"
+        android:gravity="center"
+        android:text="@string/hor_rio"
         android:textColor="@color/title_list"
         android:textSize="16sp"
-        android:gravity="center"
         app:layout_constraintBottom_toTopOf="@id/list_reg"
         app:layout_constraintEnd_toEndOf="@id/list_reg"
         app:layout_constraintStart_toEndOf="@id/mecanismo"
+        tools:ignore="TextContrastCheck">
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

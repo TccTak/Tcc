@@ -72,7 +72,7 @@
 
         android:id="@+id/buttonC"
         android:layout_width="225dp"
-        android:layout_height="48dp"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/add_button"
