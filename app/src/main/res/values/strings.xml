@@ -26,4 +26,5 @@
     <string name="usu_rio">Usuário</string>
     <string name="hor_rio">Horário</string>
     <string name="mecanismo">Mecanismo</string>
+    <string name="biometria">Biometria</string>
 </resources>
