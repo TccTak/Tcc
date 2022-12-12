@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7E250A39"
+        android:gravity="center">
+
+            <Button
+                android:id="@+id/btnG"
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:background="@drawable/buttonnfc"
+                android:drawableTop="@mipmap/digitalbio_icon3_background"
+                android:paddingTop="70dp"></Button>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
